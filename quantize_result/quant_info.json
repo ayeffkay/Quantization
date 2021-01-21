@@ -1,0 +1,23 @@
+{
+  "param":
+  {
+    "FFN::l1.weight":[8,6],
+    "FFN::l1.bias":[8,6],
+    "FFN::l2.weight":[8,6],
+    "FFN::l2.bias":[8,6],
+    "FFN::l3.weight":[8,7],
+    "FFN::l3.bias":[8,11]
+  },
+  "output":
+  {
+    "FFN::input_0":[8,6],
+    "FFN::FFN/input.2":[8,5],
+    "FFN::FFN/Linear[l2]/15":[8,5],
+    "FFN::FFN/input":[8,null],
+    "FFN::FFN/Linear[l3]/20":[8,6]
+  },
+  "input":
+  {
+
+  }
+}
