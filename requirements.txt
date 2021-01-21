@@ -1,0 +1,6 @@
+torch==1.4.0
+catalyst 
+torchvision==0.5.0
+sklearn
+numpy
+ninja
