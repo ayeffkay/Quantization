@@ -13,6 +13,6 @@ class FFN(nn.Module):
 
     def forward(self, inputs):
         o1 = F.relu(self.l1(inputs))
-        o2 = torch.tanh(self.l2(o1))
+        o2 = F.relu(self.l2(o1))
         o3 = self.l3(o2)
         return o3

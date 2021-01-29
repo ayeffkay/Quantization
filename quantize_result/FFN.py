@@ -9,7 +9,7 @@ class FFN(torch.nn.Module):
         self.module_1 = py_nndct.nn.Linear(in_features=2, out_features=6, bias=True) #FFN::FFN/Linear[l1]/10
         self.module_2 = py_nndct.nn.ReLU(inplace=False) #FFN::FFN/input.2
         self.module_3 = py_nndct.nn.Linear(in_features=6, out_features=4, bias=True) #FFN::FFN/Linear[l2]/15
-        self.module_4 = py_nndct.nn.Tanh() #FFN::FFN/input
+        self.module_4 = py_nndct.nn.ReLU(inplace=False) #FFN::FFN/input
         self.module_5 = py_nndct.nn.Linear(in_features=4, out_features=1, bias=True) #FFN::FFN/Linear[l3]/20
 
     def forward(self, *args):

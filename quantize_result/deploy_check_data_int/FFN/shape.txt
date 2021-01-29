@@ -1,4 +1,4 @@
 (1, 2): FFN::input_0
 (1, 6): FFN::FFN/input.2
-(1, 4): FFN::FFN/Linear[l2]/15
+(1, 4): FFN::FFN/input
 (1, 1): FFN::FFN/Linear[l3]/20
